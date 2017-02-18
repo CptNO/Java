@@ -15,11 +15,11 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.layout.StackPane;
 import javafx.util.Duration;
+import objects.Room;
+import objects.User;
 import pokerGame.Application.Settings;
-import pokerGame.Entities.User;
-import pokerGame.Entities.Room;
 import pokerGame.Scenes.GameScenes;
-import server.rmi.ILogin;
+import rmi.ILogin;
 
 public class MainController extends StackPane {
 

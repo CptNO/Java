@@ -16,12 +16,13 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import pokerGame.Entities.User;
+import objects.LoginMessage;
+import objects.User;
 import pokerGame.Scenes.GameScenes;
+import rmi.ILogin;
 import server.rmi.CallbackImpl;
-import server.rmi.IChat;
-import server.rmi.ILogin;
-import server.rmi.LoginMessage;
+
+
 
 public class LoginPaneController extends BaseController {
 

@@ -7,8 +7,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
-import pokerGame.Entities.GameUpdate.PlayerAction;
-import pokerGame.Entities.GameUpdate.UpdateType;
+import objects.Deck;
+import objects.GameUpdate;
+import objects.GameUpdate.PlayerAction;
+import objects.GameUpdate.UpdateType;
+import objects.Player;
+import objects.Room;
+import objects.User;
 import server.controllers.LoggerController.LoggerLevel;
 import server.controllers.MainController;
 

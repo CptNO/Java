@@ -9,11 +9,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import pokerGame.Entities.Room;
+import objects.LoginMessage;
+import objects.Room;
 import pokerGame.Scenes.GameScenes;
-import server.rmi.ILobby;
-import server.rmi.ILogin;
-import server.rmi.LoginMessage;
+import rmi.ILobby;
 
 public class NewRoomPaneController extends BaseController {
 	@FXML

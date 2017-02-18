@@ -3,11 +3,13 @@ package server.rmi;
 import java.rmi.RemoteException;
 import java.util.List;
 
+import objects.LobbyMessage;
+import objects.LobbyMessage.Type;
+import objects.Room;
+import objects.User;
 import pokerGame.Entities.Game;
-import pokerGame.Entities.User;
-import pokerGame.Entities.Room;
+import rmi.ILobby;
 import server.controllers.LoggerController.LoggerLevel;
-import server.rmi.LobbyMessage.Type;
 
 public class LobbyImpl extends BaseService implements ILobby {
 

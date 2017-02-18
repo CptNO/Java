@@ -17,11 +17,11 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
-import pokerGame.Entities.User;
-import pokerGame.Entities.Room;
+import objects.Room;
+import objects.User;
+import objects.LobbyMessage.Type;
 import pokerGame.Scenes.GameScenes;
-import server.rmi.ILobby;
-import server.rmi.LobbyMessage.Type;
+import rmi.ILobby;
 
 public class RoomController extends BaseController {
 

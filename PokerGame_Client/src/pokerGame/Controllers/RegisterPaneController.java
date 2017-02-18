@@ -10,10 +10,10 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import pokerGame.Entities.User;
+import objects.LoginMessage;
+import objects.User;
 import pokerGame.Scenes.GameScenes;
-import server.rmi.ILogin;
-import server.rmi.LoginMessage;
+import rmi.ILogin;
 
 public class RegisterPaneController extends BaseController {
 

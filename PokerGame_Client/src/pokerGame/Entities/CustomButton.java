@@ -9,7 +9,8 @@ import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.scene.text.FontSmoothingType;
 import javafx.scene.text.FontWeight;
-import pokerGame.Entities.Card.State;
+import objects.Entity;
+import objects.Card.State;
 
 public class CustomButton extends Entity{
 	private String Id;

@@ -3,6 +3,9 @@ package pokerGame.Entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import objects.Card;
+import objects.Entity;
+
 public class Table extends Entity{
 	private List<Card> deck;
 	private List<Card> tableCards;

@@ -2,8 +2,8 @@ package server.rmi;
 
 import java.rmi.RemoteException;
 
-import pokerGame.Entities.User;
-
+import objects.User;
+import rmi.IChat;
 
 public class ChatImpl extends BaseService implements IChat {
 	/**
