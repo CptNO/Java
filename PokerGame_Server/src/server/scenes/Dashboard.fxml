@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="595.0" prefWidth="746.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="server.controllers.DashboardController">
+  <children>
+    <AnchorPane fx:id="loggerPane" layoutX="14.0" layoutY="14.0" prefHeight="567.0" prefWidth="535.0" />
+    <AnchorPane fx:id="serverControlPane" layoutX="549.0" layoutY="456.0" prefHeight="125.0" prefWidth="183.0" scaleShape="false"/>
+  </children>
+</AnchorPane>

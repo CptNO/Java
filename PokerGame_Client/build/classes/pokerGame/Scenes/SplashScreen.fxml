@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="1025.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokerGame.Controllers.SplashScreenController">
+  <children>
+      <StackPane prefHeight="696.0" prefWidth="1024.0" visible="false">
+         <children>
+            <fx:include fx:id="chat" source="Chat.fxml" />
+            <fx:include fx:id="rooms" source="Rooms.fxml" />
+            <fx:include fx:id="mainMenu" source="MainMenu.fxml" />
+         </children>
+      </StackPane>
+      <Button layoutX="14.0" layoutY="657.0" mnemonicParsing="false" text="Skip" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?scenebuilder-stylesheet ../../application.css?>
+
+<AnchorPane prefHeight="561.0" prefWidth="497.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokerGame.Controllers.RoomController">
+  <children>
+    <ListView fx:id="userList" disable="true" layoutX="14.0" layoutY="63.0" prefHeight="220.0" prefWidth="246.0" />
+    <Label fx:id="roomNameLabel" layoutX="14.0" layoutY="38.0" prefHeight="17.0" prefWidth="246.0" text="Label" />
+    <Button fx:id="startGameButton" layoutX="288.0" layoutY="63.0" mnemonicParsing="false" onAction="#onStartGameButtonAction" prefHeight="47.0" prefWidth="172.0" text="Start Game" />
+    <Button fx:id="leaveRoomButton" layoutX="288.0" layoutY="256.0" mnemonicParsing="false" onAction="#onLeaveRoomButtonAction" prefHeight="25.0" prefWidth="172.0" text="Leave Room" />
+  </children>
+</AnchorPane>

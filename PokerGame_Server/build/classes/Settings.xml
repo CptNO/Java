@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+	<Server>
+		<Port>8888</Port>
+		<ServerIp>localhost</ServerIp>
+	</Server>
+	<Style>
+		<StyleLocation>/application.css</StyleLocation>
+	</Style>
+	<Rmi>
+		<CodebaseProperty>file:///</CodebaseProperty>
+		<RmiObjects>
+			<RmiObject>
+				<ClassName>server.rmi.LoginImpl</ClassName>
+				<BindingName>login</BindingName>
+			</RmiObject>
+			<RmiObject>
+				<ClassName>server.rmi.ChatImpl</ClassName>
+				<BindingName>chat</BindingName>
+			</RmiObject>
+			<RmiObject>
+				<ClassName>server.rmi.LobbyImpl</ClassName>
+				<BindingName>lobby</BindingName>
+			</RmiObject>
+		</RmiObjects>
+	</Rmi>
+</Settings>

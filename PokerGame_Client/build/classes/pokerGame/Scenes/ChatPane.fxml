@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="561.0" prefWidth="397.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pokerGame.Controllers.ChatPaneController">
+  <children>
+    <TabPane layoutX="30.0" layoutY="67.0" prefHeight="384.0" prefWidth="337.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="All Chat">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="353.0" prefWidth="337.0">
+              <children>
+                <ScrollPane layoutX="0.0" layoutY="0.0" pannable="false" prefHeight="353.0" prefWidth="337.0">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="338.0" prefWidth="337.0">
+                      <children>
+                        <FlowPane id="" fx:id="messageArea" alignment="BOTTOM_CENTER" columnHalignment="CENTER" focusTraversable="false" prefHeight="338.0" prefWidth="337.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </ScrollPane>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="30.0" layoutY="14.0" prefHeight="52.000099999997474" prefWidth="337.0" text="Chat" textAlignment="CENTER" />
+    <TextArea fx:id="sendTextBox" layoutX="30.0" layoutY="451.0" prefHeight="62.0" prefWidth="263.0" wrapText="true" />
+    <Button id="shiny-orange-button" fx:id="sendButton" layoutX="293.0" layoutY="451.0" mnemonicParsing="false" onAction="#onSendButtonPress" prefHeight="62.0" prefWidth="75.0" text="Send" />
+  </children>
+</AnchorPane>

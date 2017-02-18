@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1025.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.LoginController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <ImageView fitHeight="570.4999997554246" fitWidth="760.6666870117188" layoutX="294.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+    <StackPane id="clidrenPane" fx:id="childrenPane" layoutX="14.0" layoutY="17.0" prefHeight="570.5" prefWidth="265.0" />
+  </children>
+</AnchorPane>

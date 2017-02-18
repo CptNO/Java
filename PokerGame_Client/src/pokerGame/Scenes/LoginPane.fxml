@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="570.5" prefWidth="265.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.LoginPaneController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="115.0" layoutY="17.0" text="LOGIN" />
+    <Label layoutX="7.0" layoutY="87.0" text="Username:" />
+    <Label layoutX="7.0" layoutY="124.0" prefWidth="54.0" text="Password:" />
+    <TextField fx:id="usernameField" layoutX="75.0" layoutY="87.0" prefWidth="187.0" />
+    <PasswordField fx:id="passwordField" layoutX="75.0" layoutY="118.0" prefWidth="187.0" />
+    <Button fx:id="loginButton" layoutX="11.0" layoutY="482.0" mnemonicParsing="false" onAction="#onLoginButtonAction" prefWidth="244.0" text="Login" />
+    <Button fx:id="registerButton" layoutX="11.0" layoutY="509.0" mnemonicParsing="false" onAction="#onRegisterButtonAction" prefWidth="244.0" text="Register" />
+    <Button fx:id="exitButton" layoutX="11.0" layoutY="536.0" mnemonicParsing="false" onAction="#onExitButtonAction" prefWidth="244.0" text="Exit" />
+    <Label fx:id="loginStatusLable" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="167.0" prefWidth="248.0" text="" textFill="#ffb800" />
+  </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1025.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.MainMenuController">
+  <children>
+    <Pane layoutY="1.0" prefHeight="600.0" prefWidth="1024.0">
+      <children>
+        <Button fx:id="newGameButton" layoutX="454.0" layoutY="238.0" mnemonicParsing="false" onAction="#onNewGameButtonPress" prefHeight="25.0" prefWidth="116.0" text="New Game" />
+        <Button layoutX="454.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="116.0" text="Replay" />
+        <Button fx:id="exitButton" layoutX="454.0" layoutY="337.0" mnemonicParsing="false" onAction="#onExitButtonPress" prefHeight="25.0" prefWidth="116.0" text="Exit" />
+        <Button fx:id="statisticsButton" layoutX="454.0" layoutY="302.0" mnemonicParsing="false" onAction="#onStatisticsButtonAction" prefHeight="25.0" prefWidth="116.0" text="Statistics" />
+        <Label fx:id="gameNameLabel" alignment="CENTER" layoutX="397.0" layoutY="68.0" opacity="0.51" prefHeight="54.0" prefWidth="219.0" text="POKER GAME" textAlignment="CENTER" textFill="RED">
+          <effect>
+            <DropShadow height="16.95238095238095" radius="5.446428571428571" spread="0.3253968253968254" width="6.833333333333334" />
+          </effect>
+        </Label>
+        <Label fx:id="clockLabel" contentDisplay="CENTER" layoutX="728.0" layoutY="20.0" opacity="0.78" prefHeight="83.0" prefWidth="286.0" text="test" textAlignment="CENTER" textFill="#990000" wrapText="true">
+          <effect>
+            <Lighting diffuseConstant="0.08714285714285719" specularConstant="0.5319047619047619" specularExponent="0.0" surfaceScale="3.1911111111111112">
+              <bumpInput>
+                <Shadow />
+              </bumpInput>
+              <light>
+                <javafx.scene.effect.Light.Distant />
+              </light>
+            </Lighting>
+          </effect>
+          <font>
+            <Font name="System Bold" size="55.0" />
+          </font>
+        </Label>
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

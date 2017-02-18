@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="561.0" prefWidth="497.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.NewRoomPaneController">
+  <children>
+    <Button fx:id="backButton" layoutX="15.0" layoutY="515.0" mnemonicParsing="false" onAction="#onBackButtonAction" prefHeight="25.0" prefWidth="468.0" text="Cancel" />
+    <Label layoutX="29.0" layoutY="66.0" prefHeight="25.0" prefWidth="77.0" text="Room Name" />
+    <TextField fx:id="roomNameField" layoutX="106.0" layoutY="66.0" prefHeight="25.0" prefWidth="371.0" />
+    <Label fx:id="roomStatusLable" layoutX="29.0" layoutY="104.0" prefHeight="25.0" prefWidth="445.0" />
+    <Button fx:id="createRoomButton" layoutX="15.0" layoutY="480.0" mnemonicParsing="false" onAction="#onCreateRoomButtonAction" prefHeight="25.0" prefWidth="468.0" text="Create Room" />
+  </children>
+</AnchorPane>

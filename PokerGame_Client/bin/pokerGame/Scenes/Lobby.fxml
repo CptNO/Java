@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1025.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.LobbyController">
+  <children>
+    <Button fx:id="backButton" layoutX="21.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonAction" prefHeight="25.0" prefWidth="153.0" text="Return to Main menu" />
+    <AnchorPane fx:id="chatPane" layoutX="628.0" layoutY="39.0" prefHeight="561.0000999999975" prefWidth="397.0" />
+    <AnchorPane layoutX="21.0" layoutY="39.0" prefHeight="561.0" prefWidth="592.0">
+      <children>
+        <StackPane fx:id="roomsPane" prefHeight="561.0" prefWidth="497.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>

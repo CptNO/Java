@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane prefHeight="564.0" prefWidth="563.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="server.controllers.LoggerController">
+  <children>
+    <ListView fx:id="loggerList" layoutX="14.0" layoutY="26.0" prefHeight="529.0" prefWidth="535.0" />
+    <Label alignment="CENTER" layoutX="14.0" layoutY="6.0" prefHeight="17.0" prefWidth="535.0" text="SERVER LOG" textAlignment="CENTER">
+      <effect>
+        <Lighting>
+          <bumpInput>
+            <Shadow />
+          </bumpInput>
+          <light>
+            <javafx.scene.effect.Light.Distant />
+          </light>
+        </Lighting>
+      </effect>
+    </Label>
+  </children>
+</AnchorPane>

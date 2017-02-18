@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" onMouseEntered="#onMouseEnteredAction" prefHeight="600.0" prefWidth="1025.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pokerGame.Controllers.StatisticsController">
+  <children>
+    <Label layoutX="384.0" layoutY="62.0" prefHeight="17.0" prefWidth="93.0" text="Hours Played:" />
+    <Label layoutX="384.0" layoutY="91.0" text="Current Monney: " />
+    <Label layoutX="384.0" layoutY="123.0" prefHeight="17.0" prefWidth="93.0" text="Money Lost:" />
+    <Label layoutX="383.0" layoutY="156.0" prefHeight="17.0" prefWidth="93.0" text="Money won:" />
+    <TextField id="hoursPlayedBox" fx:id="hoursPlayedField" editable="false" layoutX="494.0" layoutY="57.0" />
+    <TextField id="currentMoneyBox" fx:id="currentMoneyField" editable="false" layoutX="494.0" layoutY="87.0" />
+    <TextField id="moneyLostBox" fx:id="moneyLostField" editable="false" layoutX="494.0" layoutY="119.0" />
+    <TextField id="moneyWonBox" fx:id="moneyWonField" editable="false" layoutX="493.0" layoutY="152.0" />
+    <Button fx:id="returnButton" layoutX="384.0" layoutY="258.0" mnemonicParsing="false" onAction="#onButtonReturnAction" prefHeight="25.0" prefWidth="272.0" text="Return" />
+    <Label fx:id="userNameLable" layoutX="476.0" layoutY="14.0" prefWidth="103.0" text="" />
+  </children>
+</AnchorPane>
