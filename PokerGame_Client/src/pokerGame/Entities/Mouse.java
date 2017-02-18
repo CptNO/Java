@@ -3,6 +3,7 @@ package pokerGame.Entities;
 import javafx.event.EventHandler;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.input.MouseEvent;
+import objects.Entity;
 
 
 public class Mouse extends Entity implements EventHandler<MouseEvent> {

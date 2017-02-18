@@ -16,9 +16,11 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import pokerGame.Entities.User;
+import objects.LoginMessage;
+import objects.LoginMessage.Type;
+import objects.User;
+import rmi.ILogin;
 import server.controllers.LoggerController.LoggerLevel;
-import server.rmi.LoginMessage.Type;
 
 public class LoginImpl extends BaseService implements ILogin {
 	

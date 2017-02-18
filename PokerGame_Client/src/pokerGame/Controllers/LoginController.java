@@ -6,7 +6,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.layout.StackPane;
-import pokerGame.Entities.Player;
+import objects.Player;
 import pokerGame.Scenes.GameScenes;
 
 public class LoginController extends BaseController {

@@ -7,22 +7,19 @@ import java.util.ResourceBundle;
 
 import javafx.beans.property.ListProperty;
 import javafx.beans.property.SimpleListProperty;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
-import pokerGame.Entities.User;
-import pokerGame.Entities.Room;
+import objects.Room;
+import objects.User;
 import pokerGame.Entities.TableRoom;
 import pokerGame.Scenes.GameScenes;
-import server.rmi.ILobby;
+import rmi.ILobby;
 
 public class RoomsPaneController extends BaseController {
 	

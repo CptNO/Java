@@ -5,9 +5,9 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import objects.Player;
+import objects.Room;
 import pokerGame.Controllers.MainController;
-import pokerGame.Entities.Player;
-import pokerGame.Entities.Room;
 import pokerGame.Scenes.GameScenes;
 
 public class Game extends Application {

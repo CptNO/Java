@@ -1,5 +1,7 @@
 package pokerGame.Entities;
 
+import objects.Entity;
+
 public class Chip extends Entity {
 	private ChipValue chipValue;
 	
