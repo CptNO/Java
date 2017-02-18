@@ -25,7 +25,8 @@ public class CallbackImpl extends UnicastRemoteObject implements IUserCallback {
 
 	@Override
 	public void userConnected(String userName) throws RemoteException {
-		
+		//Commit test
+		// this is coomit for test 
 	}
 
 	@Override
