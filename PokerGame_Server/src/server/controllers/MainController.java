@@ -17,9 +17,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.layout.StackPane;
+import objects.Room;
+import objects.User;
 import pokerGame.Entities.Game;
-import pokerGame.Entities.Room;
-import pokerGame.Entities.User;
 import server.controllers.LoggerController.LoggerLevel;
 import server.scenes.ServerScenes;
 

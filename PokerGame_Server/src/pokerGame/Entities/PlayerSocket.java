@@ -7,6 +7,9 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.ArrayList;
 import java.util.List;
+import objects.Player;
+
+import objects.GameUpdate;
 
 public class PlayerSocket extends Thread {
 	private String username;

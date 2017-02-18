@@ -4,15 +4,16 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.List;
 
+import objects.Card;
+import objects.Room;
+import objects.User;
 import pokerGame.Controllers.ChatPaneController;
 import pokerGame.Controllers.GameController;
 import pokerGame.Controllers.LobbyController;
 import pokerGame.Controllers.MainController;
 import pokerGame.Controllers.RoomsPaneController;
-import pokerGame.Entities.Card;
-import pokerGame.Entities.User;
-import pokerGame.Entities.Room;
 import pokerGame.Scenes.GameScenes;
+import rmi.IUserCallback;
 
 public class CallbackImpl extends UnicastRemoteObject implements IUserCallback {
 

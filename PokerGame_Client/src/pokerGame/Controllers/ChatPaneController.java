@@ -14,7 +14,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.paint.Color;
-import server.rmi.IChat;
+import rmi.IChat;
+
+
 
 public class ChatPaneController extends BaseController {
 
